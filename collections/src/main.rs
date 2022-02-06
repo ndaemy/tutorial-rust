@@ -7,4 +7,7 @@ fn main() {
         Some(third) => println!("The third element is {}", third),
         None => println!("There is no third element."),
     }
+
+    let mut s = String::from("foo");
+    s.push_str("bar");
 }
